@@ -58,6 +58,12 @@ public class Reservation {
 	        fbook.PaymentMode().click();
 			//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);	
 			driver.close();
-
 	    }
+	@Test
+	public void NativeAPI()
+	{
+		System.out.println("Hello");
+	}
+	
+	
 }
